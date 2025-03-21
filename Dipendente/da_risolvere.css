@@ -1,0 +1,61 @@
+.body{
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+	gap: 10px;
+}
+
+.rettangolo{
+	display: flex;
+	flex-direction: column;
+	width: 800px;
+	margin: auto;
+	text-align: left;
+	border: 2px solid #185c1c;
+	border-radius: 10px;
+	background-color:#aaa;
+	gap: 10px;
+	padding: 5px;
+}
+
+.riga{
+	display: flex;
+	justify-content: space-evenly;
+	margin: 10px 0px;
+}
+
+.descrizione, .azione{
+	justify-content: space-evenly;
+	margin: 0px 20px;
+}
+
+.segnala{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+span.checked {
+	color:#185c1c;
+}
+
+select {
+	border: 2px solid #185c1c;
+	border-radius: 10px;
+	background-color:#ccc;
+	margin: 10px;
+	padding: 5px;
+}
+
+textarea {
+    resize: none;
+    width: 750px;
+    height: 60px;
+	background: #ccc;
+	border-radius: 5px;
+}
+
+.text{
+	word-wrap: break-word;
+	margin-top: 10px;
+}

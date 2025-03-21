@@ -1,0 +1,17 @@
+.andrew{
+    width: 150px;
+    height: 150px;
+    border: #185c1c solid 3px;
+    border-radius: 50px;
+}
+.info{
+    display: flex;
+}
+table{
+    margin: auto;
+    text-align: left;
+}
+button, button:hover {
+    background-color: #AD073D;
+    color: whitesmoke;
+}

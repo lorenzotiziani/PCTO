@@ -1,0 +1,66 @@
+div.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+img{
+    width: 200px;
+    height: 100px;
+}
+
+div.Profilo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.andrew{
+    width: 50px;
+    height: 50px;
+    border: #185c1c solid 1px;
+    border-radius: 50px;
+}
+
+.testo{
+    height: 35px;
+    width: 300px;
+    margin-right: 80px;
+}
+
+input, select {
+	border: 2px solid #185c1c;
+  	border-radius: 10px;
+	background-color:#aaa;
+  	margin:10px;
+  	padding: 5px;
+}
+
+.utente{
+	display:flex;
+	flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+	margin-bottom: 10px;
+}
+
+.reparto{
+	display:flex;
+	flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+	border-top:3px solid #185c1c;
+}
+
+textarea {
+    resize: none;
+    width: 750px;
+    height: 60px;
+	background: #ccc;
+}
